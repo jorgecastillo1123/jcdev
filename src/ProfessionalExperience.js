@@ -46,12 +46,12 @@ const ProfessionalExperience = () => (
     </div>
     <div className="mx-auto max-w-7xl px-8 lg:px-10">
       <div className="relative overflow-hidden bg-white drop-shadow-xl rounded-lg px-8 sm:px-0">
-        <div className="pt-4 pb-84 sm:pt-12 sm:pb-40 sm:pt-30 lg:pb-2">
+        <div className="pt-4 pb-32 sm:pb-20 sm:pt-10">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="flex items-center justify-center my-12">
               <ol className="relative border-l border-gray-200 dark:border-gray-700">
-                {experience.map((project) => (
-                  <li className="mb-10 ml-12" key={project.name}>
+                {experience.map((project, index) => (
+                  <li className={index === experience.length - 1 ? 'ml-12 h-0' : 'mb-10 ml-12'} key={project.name}>
                     <span className="flex absolute left-[-19px] justify-center items-center w-10 h-10 bg-ali-blue
                     rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
                     >
@@ -61,9 +61,9 @@ const ProfessionalExperience = () => (
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                       {project.name}
                       {
-                  project.latest
-                  && <span className=" text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-ali-blue ml-3">Latest</span>
-                }
+                        project.latest
+                        && <span className=" text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-ali-blue ml-3">Latest</span>
+                      }
                     </h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{project.role}</time>
                     <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{project.description}</p>

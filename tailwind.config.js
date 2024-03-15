@@ -1,10 +1,6 @@
-/* eslint-disable global-require */
-/* eslint-disable import/no-extraneous-dependencies */
-/** @type {import('tailwindcss').Config} */
-
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
+    './src/**/*.{js,jsx}',
   ],
   plugins: [
     require('@tailwindcss/aspect-ratio'),
