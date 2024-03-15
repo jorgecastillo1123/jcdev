@@ -11,8 +11,7 @@ function classNames(...classes) {
 const user = {
   name: 'Jorge Castillo',
   email: 'jorgecastillo1123@gmail.com',
-  imageUrl:
-      'https://media.licdn.com/dms/image/C5603AQFixtijzLuS1w/profile-displayphoto-shrink_200_200/0/1522299088984?e=1677110400&v=beta&t=4vkq6Rked2GhbobjZJy430DcwUhpHN5_xSIP6GFYYDs',
+  imageUrl: './hamburger.png',
 };
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -62,9 +61,9 @@ const NavBar = () => (
                   {/* Profile dropdown */}
                   <Menu as="div" className="relative ml-3">
                     <div>
-                      <Menu.Button className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                      <Menu.Button className="flex max-w-xs items-center rounded-full bg-[#056cb952] text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span className="sr-only">Open user menu</span>
-                        <img className="h-8 w-8 rounded-full" src={user.imageUrl} alt="" />
+                        <img className="h-8 w-8 rounded-full p-1" src={user.imageUrl} alt="" />
                       </Menu.Button>
                     </div>
                     <Transition
@@ -128,8 +127,8 @@ const NavBar = () => (
             </div>
             <div className="border-t border-gray-300 pt-4 pb-3">
               <div className="flex items-center px-5">
-                <div className="flex-shrink-0">
-                  <img className="h-10 w-10 rounded-full" src={user.imageUrl} alt="" />
+                <div className="flex-shrink-0 rounded-full bg-[#056cb952]">
+                  <img className="h-10 w-10 p-2" src={user.imageUrl} alt="avatar" />
                 </div>
                 <div className="ml-3">
                   <div className="text-base font-bold leading-none text-black py-1">{user.name}</div>

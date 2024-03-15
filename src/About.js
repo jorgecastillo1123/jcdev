@@ -7,7 +7,7 @@ import {
   BriefcaseIcon,
   HeartIcon,
   BookOpenIcon,
-  TruckIcon,
+  CameraIcon,
 } from '@heroicons/react/24/solid';
 
 import lucca from './assets/lucca.jpg';
@@ -54,23 +54,23 @@ const About = () => (
               <h3 className="font text-2xl font-bold tracking-tight text-gray-900 !leading-tight my-8">Some unique things about me.</h3>
               <ul>
                 <li className="flex items-center justify-left pb-2">
-                  <HomeModernIcon className="h-6 w-6 mr-4 text-blue-900" aria-hidden="true" />
+                  <HomeModernIcon className="h-6 w-6 mr-4 text-[#C8102E]" aria-hidden="true" />
                   <span className="text-gray-500 text-base">I was born in Mexico City</span>
                 </li>
                 <li className="flex items-center justify-left py-2">
-                  <BriefcaseIcon className="h-6 w-6 mr-4 text-blue-900" aria-hidden="true" />
+                  <BriefcaseIcon className="h-6 w-6 mr-4 text-[#C8102E]" aria-hidden="true" />
                   <span className="text-gray-500 text-base">Love to travel with my beautiful wife</span>
                 </li>
                 <li className="flex items-center justify-left py-2">
-                  <HeartIcon className="h-6 w-6 mr-4 text-blue-900" aria-hidden="true" />
+                  <HeartIcon className="h-6 w-6 mr-4 text-[#C8102E]" aria-hidden="true" />
                   <span className="text-gray-500 text-base">I watch the Premier league every week, lets go Liverpool FC</span>
                 </li>
                 <li className="flex items-center justify-left py-2">
-                  <TruckIcon className="h-6 w-6 mr-4 text-blue-900" aria-hidden="true" />
-                  <span className="text-gray-500 text-base">My favorite hobby is working on my car</span>
+                  <CameraIcon className="h-6 w-6 mr-4 text-[#C8102E]" aria-hidden="true" />
+                  <span className="text-gray-500 text-base">My hobbies are mostly photography and video games</span>
                 </li>
                 <li className="flex items-center justify-left py-2">
-                  <BookOpenIcon className="h-6 w-6 mr-4 text-blue-900" aria-hidden="true" />
+                  <BookOpenIcon className="h-6 w-6 mr-4 text-[#C8102E]" aria-hidden="true" />
                   <span className="text-gray-500 text-base">I enjoy reading fantasy and sci-fi books, my favorite author is Brandon Sanderson</span>
                 </li>
               </ul>
