@@ -53,7 +53,7 @@ const ProfessionalExperience = () => (
                 {experience.map((project, index) => (
                   <li className={index === experience.length - 1 ? 'ml-12 h-0' : 'mb-10 ml-12'} key={project.name}>
                     <span className="flex absolute left-[-19px] justify-center items-center w-10 h-10 bg-ali-blue
-                    rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+                    rounded-full ring-8 ring-white dark:ring-[#056cb952] dark:bg-blue-900"
                     >
                       <span className={`${project.latest ? 'animate-ping' : 'opacity-0'} absolute inline-flex h-full w-full rounded-full bg-ali-blue`} />
                       <ComputerDesktopIcon className="w-5 h-5 text-white" />
