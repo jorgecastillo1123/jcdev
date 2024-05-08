@@ -21,7 +21,7 @@ const projects = [
     href: 'https://surfparkcentral.com/',
   },
   {
-    description: 'Develop website using Wordpres',
+    description: 'Develop website using Wordpress',
     role: 'beach street development',
     imageSrc: beachstreet,
     href: 'https://beachstreetdev.com/',
@@ -33,13 +33,13 @@ const projects = [
     href: 'http://ajwsurfboards.com/',
   },
   {
-    description: 'Develop website using Wordpres',
+    description: 'Develop website using Wordpress',
     role: 'dsrt surf',
     imageSrc: dsrt,
     href: '  https://www.dsrtsurf.com/',
   },
   {
-    description: 'Develop website using Wordpres',
+    description: 'Develop website using Wordpress',
     role: 'wave garden',
     imageSrc: wg,
     href: '  https://wavegarden.com/',
