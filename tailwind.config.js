@@ -19,7 +19,7 @@ module.exports = {
         'brand-red-dark': '#71091B',
         'brand-red-deep': '#31070F',
         'brand-ink': '#16070A',
-        'brand-gold': '#F6EB61',
+        'brand-gold': '#F4F1E8',
         'brand-green': '#00B2A9',
       },
       animation: {

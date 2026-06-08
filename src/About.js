@@ -23,17 +23,22 @@ const About = () => (
           Refined through
           <span> experience.</span>
         </h2>
-        <p>
+        <p className="about-copy-desktop">
           I&apos;m Jorge Castillo, a front-end developer who enjoys turning complex
           requirements into clear, useful interfaces. I specialize in React and
           Next.js architecture, responsive design, application performance, and
           accessible user experiences.
         </p>
-        <p>
+        <p className="about-copy-desktop">
           I&apos;ve led development teams and built products across mortgage technology,
           healthcare, telecommunications, social media, e-commerce, and banking. I care
           about maintainable systems and the small interaction details that make
           software feel effortless.
+        </p>
+        <p className="about-copy-mobile">
+          I&apos;m Jorge Castillo, a front-end developer with 16 years of experience
+          building fast, accessible products with React and Next.js. I turn complex
+          requirements into clear interfaces that feel effortless to use.
         </p>
       </div>
 

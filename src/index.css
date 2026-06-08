@@ -9,7 +9,7 @@
   --paper: #f5f3ee;
   --red: #c8102e;
   --red-dark: #71091b;
-  --gold: #f6eb61;
+  --gold: #f4f1e8;
   --green: #00b2a9;
   --line-dark: rgba(255, 255, 255, 0.16);
 }
@@ -104,7 +104,7 @@ a {
 
 .brand-mark svg {
   width: 28px;
-  color: var(--gold);
+  color: var(--green);
 }
 
 .site-nav-links {
@@ -119,7 +119,7 @@ a {
 }
 
 .site-nav-links a:hover {
-  color: var(--gold);
+  color: var(--green);
 }
 
 .site-nav-cta {
@@ -150,12 +150,13 @@ a {
 }
 
 .pill-button-gold {
-  background: var(--gold);
+  background: linear-gradient(120deg, var(--gold) 0%, #dff8ec 100%);
   color: var(--ink);
+  box-shadow: 0 10px 30px rgba(0, 178, 169, 0.12);
 }
 
 .pill-button-gold:hover {
-  background: #fff672;
+  background: linear-gradient(120deg, #fff 0%, #c8f3e8 100%);
 }
 
 .pill-button-outline {
@@ -173,6 +174,7 @@ a {
   min-height: calc(100vh - 72px);
   overflow: hidden;
   background:
+    radial-gradient(circle at 82% 18%, rgba(0, 178, 169, 0.12), transparent 25%),
     radial-gradient(circle at 50% 80%, rgba(200, 16, 46, 0.34), transparent 34%),
     linear-gradient(180deg, #050505 0%, #090506 68%, #22060b 100%);
 }
@@ -236,7 +238,7 @@ a {
 
 .eyebrow {
   margin: 0 0 22px;
-  color: var(--gold);
+  color: var(--green);
   font-size: 19px;
   font-weight: 700;
 }
@@ -263,6 +265,10 @@ a {
 .experience-intro h2 span,
 .footer-cta h2 span {
   color: var(--gold);
+  background: linear-gradient(105deg, var(--gold) 20%, #bdeee7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-copy {
@@ -358,7 +364,9 @@ a {
 
 .about-section {
   padding: 105px 0 85px;
-  background: linear-gradient(145deg, #090506 0%, #1d070c 100%);
+  background:
+    radial-gradient(circle at 88% 22%, rgba(0, 178, 169, 0.09), transparent 26%),
+    linear-gradient(145deg, #090506 0%, #1d070c 100%);
   color: #fff;
 }
 
@@ -385,8 +393,12 @@ a {
   line-height: 1.7;
 }
 
+.about-copy-mobile {
+  display: none;
+}
+
 .about-copy .eyebrow {
-  color: var(--gold);
+  color: var(--green);
 }
 
 .about-visual {
@@ -454,7 +466,7 @@ a {
 
 .fact-item svg {
   width: 30px;
-  color: var(--gold);
+  color: var(--green);
 }
 
 .fact-item p {
@@ -464,7 +476,9 @@ a {
 
 .projects-section {
   padding: 90px 0;
-  background: var(--ink);
+  background:
+    radial-gradient(circle at 12% 32%, rgba(200, 16, 46, 0.14), transparent 30%),
+    linear-gradient(180deg, #050505 0%, #090607 48%, #050505 100%);
 }
 
 .section-heading {
@@ -489,7 +503,7 @@ a {
   overflow: hidden;
   border: 1px solid var(--line-dark);
   border-radius: 8px;
-  background: #0b0b0b;
+  background: linear-gradient(145deg, #101010 0%, #080808 72%);
   color: #fff;
   text-decoration: none;
   opacity: 0;
@@ -535,7 +549,7 @@ a {
 
 .project-meta > span {
   align-self: start;
-  color: var(--gold);
+  color: var(--green);
   font-size: 13px;
 }
 
@@ -561,17 +575,18 @@ a {
 
 .project-row:hover .project-meta svg {
   transform: translate(5px, -5px);
-  color: var(--gold);
+  color: var(--green);
 }
 
 .project-row:hover {
-  border-color: rgba(246, 235, 97, 0.42);
-  background: #101010;
+  border-color: rgba(0, 178, 169, 0.48);
+  background: linear-gradient(145deg, #151515 0%, #081110 100%);
 }
 
 .experience-section {
   padding: 95px 0;
   background:
+    radial-gradient(circle at 88% 74%, rgba(0, 178, 169, 0.12), transparent 28%),
     radial-gradient(circle at 12% 18%, rgba(200, 16, 46, 0.32), transparent 32%),
     linear-gradient(145deg, #520815 0%, #26070d 100%);
 }
@@ -589,11 +604,11 @@ a {
 }
 
 .footer-cta .eyebrow {
-  color: var(--gold);
+  color: var(--green);
 }
 
 .experience-intro .eyebrow {
-  color: #fff;
+  color: var(--green);
 }
 
 .experience-intro > p:last-child {
@@ -642,7 +657,7 @@ a {
 }
 
 .experience-number {
-  color: var(--gold);
+  color: var(--green);
   font-size: 13px;
   font-weight: 700;
 }
@@ -668,6 +683,7 @@ a {
 .footer-section {
   padding: 95px 0 36px;
   background:
+    radial-gradient(circle at 18% 76%, rgba(0, 178, 169, 0.1), transparent 28%),
     radial-gradient(circle at 80% 30%, rgba(200, 16, 46, 0.28), transparent 35%),
     var(--ink);
 }
@@ -707,7 +723,7 @@ a {
 }
 
 .footer-bottom a:hover {
-  color: var(--gold);
+  color: var(--green);
 }
 
 .footer-bottom svg {
@@ -835,17 +851,10 @@ a {
   }
 
   .hero-showcase {
-    width: 100%;
-    height: 300px;
-    margin-bottom: -25px;
+    display: none;
   }
 
-  .showcase-frame-main {
-    inset: 0 5%;
-  }
-
-  .showcase-frame-left,
-  .showcase-frame-right {
+  .location {
     display: none;
   }
 
@@ -861,6 +870,14 @@ a {
   .experience-intro h2,
   .footer-cta h2 {
     font-size: 47px;
+  }
+
+  .about-copy-desktop {
+    display: none;
+  }
+
+  .about-copy-mobile {
+    display: block;
   }
 
   .about-stat {
