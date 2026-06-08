@@ -8,6 +8,7 @@ import Footer from './Footer';
 import htx from './assets/htx.jpg';
 import surfpark from './assets/surfpark.jpg';
 import clarify from './assets/clarify.jpg';
+import heroAbstractBackground from './assets/hero-abstract-background.png';
 
 const Home = () => {
   useEffect(() => {
@@ -32,17 +33,19 @@ const Home = () => {
   return (
     <>
       <main className="hero" id="top">
+        <div className="hero-backdrop" aria-hidden="true">
+          <img src={heroAbstractBackground} alt="" />
+        </div>
         <div className="hero-content hero-intro">
-          <p className="eyebrow hero-step">Senior Front-End Developer</p>
           <h1>
             I build digital
             <br />
             experiences that
-            <span> move.</span>
+            <span className="heading-lime"> move.</span>
           </h1>
           <p className="hero-copy hero-step">
-            More than 16 years creating thoughtful, high-quality products for teams
-            across e-commerce, healthcare, banking, and communications.
+            More than 16 years of experience creating thoughtful, high-quality
+            products across e-commerce, healthcare, banking, and communications.
           </p>
           <div className="hero-actions hero-step">
             <a className="pill-button pill-button-gold" href="#projects">Explore my work</a>

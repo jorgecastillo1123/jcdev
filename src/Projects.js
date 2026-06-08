@@ -47,7 +47,7 @@ const projects = [
     href: 'https://wavegarden.com/',
   },
   {
-    role: 'Alpnrock',
+    role: 'Alp N Rock',
     description: 'Shopify and WordPress',
     imageSrc: alpnrock,
     href: 'https://alpnrock.com/',
@@ -64,11 +64,12 @@ const Projects = () => (
   <section className="projects-section" id="projects">
     <div className="section-shell section-heading reveal reveal-up" data-reveal>
       <p className="eyebrow">Selected work</p>
-      <h2>
-        Ideas, shipped.
+      <h2 className="projects-heading">
+        <span className="projects-heading-primary">Ideas, </span>
+        <span className="projects-heading-secondary">shipped.</span>
         <br />
-        Products,
-        <span> polished.</span>
+        <span className="projects-heading-primary">Products, </span>
+        <span className="projects-heading-secondary">polished.</span>
       </h2>
     </div>
 

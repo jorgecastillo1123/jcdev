@@ -9,7 +9,10 @@ const Footer = () => (
       <h2>
         Let&apos;s build something
         <br />
-        people love to
+        people
+        <span className="heading-lime"> love</span>
+        {' '}
+        to
         <span> use.</span>
       </h2>
       <div className="footer-actions">
@@ -26,7 +29,7 @@ const Footer = () => (
     </div>
 
     <div className="section-shell footer-bottom">
-      <p>Jorge Castillo, Senior Front-End Developer</p>
+      <p>Jorge Castillo, Senior Front End Engineer</p>
       <div>
         <a href="https://www.linkedin.com/in/jorge-castillo-dev" rel="noreferrer" target="_blank">
           LinkedIn

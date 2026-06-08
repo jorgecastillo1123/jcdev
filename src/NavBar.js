@@ -15,7 +15,10 @@ const NavBar = () => (
         <div className="site-nav-inner">
           <a href="#top" className="brand-mark" aria-label="Jorge Castillo home">
             <CodeBracketIcon aria-hidden="true" />
-            <span>Jorge Castillo</span>
+            <span className="brand-copy">
+              <strong>Jorge Castillo</strong>
+              <small>Senior Front End Engineer</small>
+            </span>
           </a>
 
           <div className="site-nav-links">

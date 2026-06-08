@@ -20,7 +20,7 @@ module.exports = {
         'brand-red-deep': '#31070F',
         'brand-ink': '#16070A',
         'brand-gold': '#F4F1E8',
-        'brand-green': '#00B2A9',
+        'brand-green': '#C7F000',
       },
       animation: {
         'spin-slow': 'spin 10s linear infinite',

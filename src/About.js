@@ -7,9 +7,9 @@ import {
 import aboutTechnologyGraphic from './assets/about-abstract-tech.png';
 
 const facts = [
-  { icon: SparklesIcon, text: 'Remote experience with teams across five countries.' },
+  { icon: SparklesIcon, text: 'Experience working remotely with teams across five countries.' },
   { icon: CameraIcon, text: 'Photography, travel, and video games keep me curious.' },
-  { icon: HeartIcon, text: 'Premier League every week. Liverpool FC, always.' },
+  { icon: HeartIcon, text: 'Premier League every week. Liverpool FC™, always.' },
 ];
 
 const About = () => (
@@ -18,13 +18,14 @@ const About = () => (
       <div className="about-copy reveal reveal-left" data-reveal>
         <p className="eyebrow">The person behind the pixels</p>
         <h2>
-          Built with curiosity.
+          Built with
+          <span className="heading-lime"> curiosity.</span>
           <br />
           Refined through
-          <span> experience.</span>
+          <span className="heading-lime"> experience.</span>
         </h2>
         <p className="about-copy-desktop">
-          I&apos;m Jorge Castillo, a front-end developer who enjoys turning complex
+          I&apos;m Jorge Castillo, a front end engineer who enjoys turning complex
           requirements into clear, useful interfaces. I specialize in React and
           Next.js architecture, responsive design, application performance, and
           accessible user experiences.
@@ -36,7 +37,7 @@ const About = () => (
           software feel effortless.
         </p>
         <p className="about-copy-mobile">
-          I&apos;m Jorge Castillo, a front-end developer with 16 years of experience
+          I&apos;m Jorge Castillo, a front end engineer with 16 years of experience
           building fast, accessible products with React and Next.js. I turn complex
           requirements into clear interfaces that feel effortless to use.
         </p>

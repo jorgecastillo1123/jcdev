@@ -1,23 +1,23 @@
 const experience = [
   {
     name: 'Wilqo',
-    role: 'Senior Frontend Engineer',
-    description: 'Lead AI-powered engineering workflows, QA automation, and an end-to-end AI development pipeline while architecting React and Next.js products serving more than 150 mortgage-industry clients.',
+    role: 'Senior Front End Engineer',
+    description: 'Lead AI-powered engineering workflows, QA automation, and an end-to-end development pipeline while architecting React and Next.js products that serve more than 150 mortgage-industry clients.',
   },
   {
     name: 'B-Stock Solutions',
-    role: 'Senior Frontend Engineer',
-    description: 'Redesigned the global marketplace experience, helping migrate the Magento application to a modern Next.js frontend.',
+    role: 'Senior Front End Engineer',
+    description: 'Redesigned the global marketplace experience and helped migrate the Magento application to a modern Next.js front end.',
   },
   {
     name: 'National Funding',
-    role: 'Senior Frontend Engineer',
-    description: 'Built client-facing interfaces for opening and managing loans, including interest-rate costs and other loan-dependent financial calculations.',
+    role: 'Senior Front End Engineer',
+    description: 'Built client-facing interfaces for opening and managing loans, including tools for calculating interest costs and other loan-dependent expenses.',
   },
   {
     name: 'Fuzzy',
-    role: 'Senior Frontend Engineer',
-    description: 'Refactored a legacy WordPress application into Next.js with Nacelle, doubling load speed, supporting 30% customer growth, achieving full unit-test coverage, and introducing ADA compliance.',
+    role: 'Senior Front End Engineer',
+    description: 'Refactored a legacy WordPress application using Next.js and Nacelle, cutting load times in half, supporting 30% customer growth, achieving 100% unit test coverage, and introducing ADA compliance.',
   },
   {
     name: 'Holonis',
@@ -27,16 +27,16 @@ const experience = [
   {
     name: 'Netsapiens',
     role: 'Software Engineer II',
-    description: 'Built React and PHP communication portals using WebRTC, plus D3.js reporting tools and real-time features used across hospitality and telemarketing teams.',
+    description: 'Built React and PHP communication portals using WebRTC, along with D3.js reporting tools and real-time features for hospitality and telemarketing teams.',
   },
   {
     name: 'Edisen',
-    role: 'Senior Frontend Engineer',
+    role: 'Senior Front End Engineer',
     description: 'Built a Node.js and React media collaboration platform with WebSockets, AWS S3 file sharing, internal chat, and asset metadata management.',
   },
   {
     name: 'Miva',
-    role: 'Frontend Developer',
+    role: 'Front End Developer',
     description: 'Implemented customer-facing website features, resolved production issues, and improved e-commerce functionality in a support-focused environment.',
   },
   {
@@ -45,7 +45,7 @@ const experience = [
     description: 'Designed and developed custom websites for restaurants, bars, and retailers, including SEO strategy, visual design, and brand identity work.',
   },
   {
-    name: 'AlpnRock',
+    name: 'Alp N Rock',
     role: 'Webmaster',
     description: 'Redesigned and enhanced a Shopify storefront, including payment and discount features that improved the shopping experience.',
   },
@@ -56,8 +56,8 @@ const experience = [
   },
   {
     name: 'Vertical HR',
-    role: 'Frontend Developer',
-    description: 'Developed a human resources management frontend with Next.js and Tailwind, integrated with a Node.js backend.',
+    role: 'Front End Developer',
+    description: 'Developed a human resources management front end with Next.js and Tailwind, integrated with a Node.js backend.',
   },
 ];
 
@@ -69,7 +69,8 @@ const ProfessionalExperience = () => (
         <h2>
           A career spent
           <br />
-          making the web
+          making the
+          <span className="heading-lime"> web</span>
           <span> better.</span>
         </h2>
         <p>
