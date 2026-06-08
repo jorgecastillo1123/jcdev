@@ -4,7 +4,7 @@ import Home from './Home';
 import NavBar from './NavBar';
 
 const App = () => (
-  <div>
+  <div className="min-h-screen bg-brand-ink text-white">
     <NavBar />
     <Routes>
       <Route path="/" element={<Home />} />

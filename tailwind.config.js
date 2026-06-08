@@ -15,8 +15,12 @@ module.exports = {
         sans: ['Roboto', '"Open Sans"'],
       },
       colors: {
-        'ali-yellow': '#ffca28',
-        'ali-blue': '#01579b',
+        'brand-red': '#C8102E',
+        'brand-red-dark': '#71091B',
+        'brand-red-deep': '#31070F',
+        'brand-ink': '#16070A',
+        'brand-gold': '#F6EB61',
+        'brand-green': '#00B2A9',
       },
       animation: {
         'spin-slow': 'spin 10s linear infinite',

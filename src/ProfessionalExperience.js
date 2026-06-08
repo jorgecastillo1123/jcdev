@@ -1,81 +1,102 @@
-import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
-
 const experience = [
   {
-    role: 'Sr. Frontend Engineer  - April 2021 - Present',
     name: 'Wilqo',
-    description: 'Hired as the first frontend developer to guide the architecture of the application',
-    latest: true,
+    role: 'Senior Frontend Engineer',
+    description: 'Lead AI-powered engineering workflows, QA automation, and an end-to-end AI development pipeline while architecting React and Next.js products serving more than 150 mortgage-industry clients.',
   },
   {
-    role: 'Sr. Frontend Engineer - Oct 2020 - April 2021',
+    name: 'B-Stock Solutions',
+    role: 'Senior Frontend Engineer',
+    description: 'Redesigned the global marketplace experience, helping migrate the Magento application to a modern Next.js frontend.',
+  },
+  {
+    name: 'National Funding',
+    role: 'Senior Frontend Engineer',
+    description: 'Built client-facing interfaces for opening and managing loans, including interest-rate costs and other loan-dependent financial calculations.',
+  },
+  {
     name: 'Fuzzy',
-    description: 'Integrate Nacelle backend into a Next/React application',
+    role: 'Senior Frontend Engineer',
+    description: 'Refactored a legacy WordPress application into Next.js with Nacelle, doubling load speed, supporting 30% customer growth, achieving full unit-test coverage, and introducing ADA compliance.',
   },
   {
-    role: 'Frontend Engineer - Sept 2018 - April 2021',
     name: 'Holonis',
-    description: 'Migrate application from Angularjs 1.x to React.',
+    role: 'Software Engineer',
+    description: 'Migrated a legacy Angular application to React, created an Atomic Design UI library, and improved media performance, advertising integration, and SEO.',
   },
   {
-    role: 'Frontend Engineer - March 2017 - Sept 2018',
     name: 'Netsapiens',
-    description: 'Develop communication applications using WebRTC technology.',
+    role: 'Software Engineer II',
+    description: 'Built React and PHP communication portals using WebRTC, plus D3.js reporting tools and real-time features used across hospitality and telemarketing teams.',
   },
   {
-    role: 'Frontend Engineer - April 2013 - March 2017',
-    name: 'Vigor Systems',
-    description: 'Design and implement Angular Directives, Services and Modules.',
+    name: 'Edisen',
+    role: 'Senior Frontend Engineer',
+    description: 'Built a Node.js and React media collaboration platform with WebSockets, AWS S3 file sharing, internal chat, and asset metadata management.',
   },
   {
-    role: 'Frontend Developer - August 2012 - April 2013',
     name: 'Miva',
-    description: 'Web Developer in a Support ticket environment',
+    role: 'Frontend Developer',
+    description: 'Implemented customer-facing website features, resolved production issues, and improved e-commerce functionality in a support-focused environment.',
   },
   {
-    role: 'Web Developer - Feb 2009 - August 2012',
-    name: 'Runningfish Design Studio',
-    description: 'Web and e-Commerce Development',
+    name: 'RunningFish Design Studio',
+    role: 'Web Developer',
+    description: 'Designed and developed custom websites for restaurants, bars, and retailers, including SEO strategy, visual design, and brand identity work.',
+  },
+  {
+    name: 'AlpnRock',
+    role: 'Webmaster',
+    description: 'Redesigned and enhanced a Shopify storefront, including payment and discount features that improved the shopping experience.',
+  },
+  {
+    name: 'Clarify Medical',
+    role: 'Webmaster',
+    description: 'Built a Magento e-commerce platform for a product launch and integrated advertising and social engagement initiatives with the marketing team.',
+  },
+  {
+    name: 'Vertical HR',
+    role: 'Frontend Developer',
+    description: 'Developed a human resources management frontend with Next.js and Tailwind, integrated with a Node.js backend.',
   },
 ];
 
 const ProfessionalExperience = () => (
-  <div className="bg-gray-100 py-8 sm:py-16 lg:py-16 lg:pb-16" id="profesional">
-    <div className="sm:text-center pb-16 px-8 sm:px-0">
-      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Profesional experience</h2>
-    </div>
-    <div className="mx-auto max-w-7xl px-8 lg:px-10">
-      <div className="relative overflow-hidden bg-white drop-shadow-xl rounded-lg px-8 sm:px-0">
-        <div className="pt-4 pb-32 sm:pb-20 sm:pt-10">
-          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-            <div className="flex items-center justify-center my-12">
-              <ol className="relative border-l border-gray-200 dark:border-gray-700">
-                {experience.map((project, index) => (
-                  <li className={index === experience.length - 1 ? 'ml-12 h-0' : 'mb-10 ml-12'} key={project.name}>
-                    <span className="flex absolute left-[-19px] justify-center items-center w-10 h-10 bg-ali-blue
-                    rounded-full ring-8 ring-white dark:ring-[#056cb952] dark:bg-blue-900"
-                    >
-                      <span className={`${project.latest ? 'animate-ping' : 'opacity-0'} absolute inline-flex h-full w-full rounded-full bg-ali-blue`} />
-                      <ComputerDesktopIcon className="w-5 h-5 text-white" />
-                    </span>
-                    <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                      {project.name}
-                      {
-                        project.latest
-                        && <span className=" text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-ali-blue ml-3">Latest</span>
-                      }
-                    </h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{project.role}</time>
-                    <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{project.description}</p>
-                  </li>
-                ))}
-              </ol>
+  <section className="experience-section" id="experience">
+    <div className="section-shell experience-layout">
+      <div className="experience-intro reveal reveal-left" data-reveal>
+        <p className="eyebrow">Professional experience</p>
+        <h2>
+          A career spent
+          <br />
+          making the web
+          <span> better.</span>
+        </h2>
+        <p>
+          From agency work to product architecture, every role has sharpened how I
+          think about teams, systems, and users.
+        </p>
+      </div>
+
+      <div className="experience-list">
+        {experience.map((job, index) => (
+          <article
+            className="experience-row reveal reveal-up"
+            data-reveal
+            key={job.name}
+            style={{ '--reveal-delay': `${Math.min(index * 55, 220)}ms` }}
+          >
+            <span className="experience-number">{String(index + 1).padStart(2, '0')}</span>
+            <div>
+              <h3>{job.name}</h3>
+              <h4>{job.role}</h4>
+              <p>{job.description}</p>
             </div>
-          </div>
-        </div>
+          </article>
+        ))}
       </div>
     </div>
-  </div>
+  </section>
 );
 
 export default ProfessionalExperience;
